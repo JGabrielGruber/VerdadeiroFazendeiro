@@ -2,10 +2,10 @@ module models
 
 import models { Plantio, Proprietario, Terreno, Transacao }
 
-struct Fazenda {
+pub struct Fazenda {
 	proprietario Proprietario
 	mut:
 		plantios []Plantio
-		terrenos []Terrenos
+		terrenos []Terreno
 		transacoes []Transacao
 }

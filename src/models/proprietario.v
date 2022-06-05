@@ -1,6 +1,6 @@
 module models
 
-struct Proprietario {
+pub struct Proprietario {
 	uid string
 	mut:
 		nome string

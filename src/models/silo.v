@@ -2,7 +2,7 @@ module models
 
 import models { Cultura }
 
-struct Silo {
+pub struct Silo {
 	capacidade i64 // sacas 60kg
 	mut:
 		qualidade i8 // percentual
